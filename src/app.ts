@@ -1,10 +1,10 @@
 import express, { Application } from 'express';
 import morgan from 'morgan';
 import cors from 'cors';
-/*
-import userRoutes from './routes/userRoutes'
-import photoRoutes from './routes/photoRoutes'
-import adminRoutes from './routes/adminRoutes' */
+
+import seguimientoRoutes from './routes/seguimiento.routes'
+
+
 
 const app: Application = express();
 
@@ -17,10 +17,7 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-/*
-app.use('/auth', authRoutes);
-app.use('/user', userRoutes);
-app.use('/admin', adminRoutes);
-app.use('/photo', photoRoutes);*/
+
+app.use('/seguimiento', seguimientoRoutes);
 
 export default app;

@@ -10,7 +10,12 @@ Ejercico de examen realizado por <a href="https://github.com/miguelangelro">Migu
 
 El proyecto consta de dos partes, Backend y Frontend, los cuales están en repositorios diferentes. Aquí trataremos el lado del servidor y en el [Repositorio Frontend](https://github.com/miguelangelro/EA-Minimo-Frontend) trataremos la parte del cliente.
 
-En esta parte se hace uso de NodeJs, Express, Mongoose y MongoDB para crear una API Rest (Descripcion del proyecto).
+En esta parte se hace uso de NodeJs, Express, Mongoose y MongoDB para crear una API Rest que cumpla las siguientes funciones: 
+
+1. Crear seguimiento de UNA persona sobre la que se realiza farmacovigilacina.
+2. Eliminar seguimiento.
+3. Listar todos los seguimientos.
+
 <br>
 
 ## Inicialización del proyecto
